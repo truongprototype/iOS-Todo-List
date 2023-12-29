@@ -18,11 +18,15 @@ struct LoginView: View {
                 
                 // Form
                 Form {
+                    if !viewModel.errorMessage.isEmpty {
+                        Text(viewModel.errorMessage).foregroundStyle(.red)
+                    }
                     TextField("Email", text: $viewModel.email)
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     SecureField("Password", text: $viewModel.password)
-                    TLButton(title: "Login", background: .blue, action: {})
-                        .padding(.vertical, 20)
+                    TLButton(title: "Login", background: .blue, action: {
+                        viewModel.login()
+                    }).padding(.vertical, 20)
                 }.offset(y: -50)
                 
                 // Footer

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E7C2FDC2B2C5F37009B2384 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C2FDB2B2C5F37009B2384 /* TLButton.swift */; };
+		0E8D5C1E2B3D769C005B9C2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D5C1D2B3D769B005B9C2D /* Extensions.swift */; };
 		0EA9C19A2B2855BD000AC4E0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0EA9C1992B2855BD000AC4E0 /* FirebaseAuth */; };
 		0EA9C1A62B2855BD000AC4E0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0EA9C1A52B2855BD000AC4E0 /* FirebaseFirestore */; };
 		0EA9C1AA2B2855BD000AC4E0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0EA9C1A92B2855BD000AC4E0 /* FirebaseFirestoreSwift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0E7C2FDB2B2C5F37009B2384 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		0E8D5C1D2B3D769B005B9C2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0EA9C1C32B285A7D000AC4E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0EA9C1CA2B2862BC000AC4E0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0EA9C1CC2B28630A000AC4E0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				0EEC97CF2B28509D002AE2A3 /* Assets.xcassets */,
 				0EA9C1C32B285A7D000AC4E0 /* GoogleService-Info.plist */,
 				0EEC97D12B28509D002AE2A3 /* Preview Content */,
+				0E8D5C1D2B3D769B005B9C2D /* Extensions.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				0EA9C1D52B2863CB000AC4E0 /* TodoItemView.swift in Sources */,
 				0EA9C1DF2B2865D4000AC4E0 /* LoginViewModel.swift in Sources */,
 				0EA9C1E12B2865DD000AC4E0 /* RegisterViewModel.swift in Sources */,
+				0E8D5C1E2B3D769C005B9C2D /* Extensions.swift in Sources */,
 				0EA9C1CD2B28630A000AC4E0 /* LoginView.swift in Sources */,
 				0EA9C1D92B286457000AC4E0 /* User.swift in Sources */,
 				0EEC97CC2B28509C002AE2A3 /* TodoListApp.swift in Sources */,
