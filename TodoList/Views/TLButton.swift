@@ -18,7 +18,12 @@ struct TLButton: View {
         } label: {
             ZStack {
                 RoundedRectangle(cornerRadius: 10).foregroundColor(background)
-                Text(title).foregroundStyle(.white).bold()
+                
+                if #available(iOS 16.0, *) {
+                    Text(title).foregroundStyle(.white).bold()
+                } else {
+                    Text(title).foregroundStyle(.white)
+                }
             }
         }
     }
